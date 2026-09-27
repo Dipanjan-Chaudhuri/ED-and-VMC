@@ -1,15 +1,4 @@
-# ED-and-VMC
-Contains codes on Exact Diagonalization and Variational Monte Carlo techniques typically used in Quantum Many-body Physics. 
-
-- This repository comprises independent projects using which I learned and developed the basic ideas of ED and VMC from scratch.
-- The file Code.ipynb is essentially a sandbox where I worked on an example project to understand the essence of both these ideas.
-- The remaining files are projects specific to the algorithm that I wanted to implement.
-
-# Projects : 
-# 1. ED of 1D Quantum Spin-Chains :
-
-
-## Exact Diagonalization of the 1D XXZ Spin Chain
+# Exact Diagonalization of the 1D XXZ Spin Chain
 
 This repository contains a custom Exact Diagonalization (ED) solver built in Python. It is designed to compute the ground-state properties and quantum entanglement metrics of the 1D XXZ Heisenberg model using sparse matrix operations and bitwise symmetry reduction.
 
