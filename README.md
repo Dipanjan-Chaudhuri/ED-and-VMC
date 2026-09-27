@@ -29,7 +29,7 @@ By scanning the anisotropy parameter $\Delta$, the solver successfully captures 
 ![Phase Transition](phase_transition.png)
 
 ### 2. Finite-Size Scaling
-To approximate the thermodynamic limit ($N \to \infty$), the ground state energy per site ($E_0/N$) is calculated for system sizes $N \in \{8, 10, 12, 14\}$ at the isotropic point. A linear extrapolation against $1/N$ provides the infinite-chain limit estimate.
+To approximate the thermodynamic limit ($N \to \infty$), the ground state energy per site ($E_0/N$) is calculated for system sizes $N \in \{8, 10, 12, 14, 16, 18\}$ at the isotropic point. A polynomial extrapolation against $1/N$ provides the infinite-chain limit estimate. As the plot shows, under the thermodynamic limit, we approach the Bethe ansatz, i.e., $\frac{E}{N} \approx \frac{1}{4} - \ln{(2)}$
 
 ![Finite Size Scaling](finite_scaling.png)
 
