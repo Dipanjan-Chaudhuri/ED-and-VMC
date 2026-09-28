@@ -33,6 +33,8 @@ To approximate the thermodynamic limit ($N \to \infty$), the ground state energy
 
 ![Finite Size Scaling](finite_scaling.png)
 
+### 3. Spin Gap
+
 ## Dependencies
 * `numpy`
 * `scipy`
