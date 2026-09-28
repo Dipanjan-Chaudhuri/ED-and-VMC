@@ -33,7 +33,16 @@ To approximate the thermodynamic limit ($N \to \infty$), the ground state energy
 
 ![Finite Size Scaling](finite_scaling.png)
 
-### 3. Spin Gap
+### 3. Spin Gap Scaling & Phase Boundary
+To probe the low-lying excitations across the transition, the fundamental spin gap is computed as the energy required to flip a spin, defined as the difference between the ground states of adjacent magnetization sectors:
+
+$$ \Delta E = E_0(m^z = 1) - E_0(m^z = 0) $$
+
+In finite-size chains, finite-size quantization introduces an artificial $O(1/N)$ gap in the critical XY region ($\Delta \le 1.0$). To extract the true thermodynamic behavior:
+* **Data Collapse ($\Delta \le 1.0$):** Multiplying the gap by system size ($N \times \Delta E$) cancels out the $1/N$ finite-size effect, causing the curves for $N \in \{8, 10, 12, 14\}$ to collapse onto a flat horizontal line, confirming a gapless ground state in the thermodynamic limit.
+* **Bifurcation ($\Delta > 1.0$):** As the anisotropy crosses the critical threshold ($\Delta = 1.0$), a true physical excitation gap opens in the Néel phase. Multiplying by $N$ causes the scaled curves to branch upward sharply, cleanly signaling the continuous quantum phase transition.
+
+![Spin Gap Scaling](spin_gap.png)
 
 ## Dependencies
 * `numpy`
