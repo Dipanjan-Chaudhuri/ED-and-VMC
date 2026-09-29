@@ -42,7 +42,7 @@ In finite-size chains, finite-size quantization introduces an artificial $O(1/N)
 * **Data Collapse ($\Delta \le 1.0$):** Multiplying the gap by system size ($N \times \Delta E$) cancels out the $1/N$ finite-size effect, causing the curves for $N \in \{8, 10, 12, 14\}$ to collapse onto a flat horizontal line, confirming a gapless ground state in the thermodynamic limit.
 * **Bifurcation ($\Delta > 1.0$):** As the anisotropy crosses the critical threshold ($\Delta = 1.0$), a true physical excitation gap opens in the Néel phase. Multiplying by $N$ causes the scaled curves to branch upward sharply, cleanly signaling the continuous quantum phase transition.
 
-![Spin Gap Scaling](spin_gap.png)
+![Spin Gap Scaling](scaled_spin_gap.png)
 
 ## Dependencies
 * `numpy`
