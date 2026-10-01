@@ -24,7 +24,7 @@ To bypass the exponential memory bottleneck of the full $2^N$ Hilbert space, thi
 ## Key Results
 
 ### 1. Quantum Phase Transition
-By scanning the anisotropy parameter $\Delta$, the solver successfully captures the transition between the critical gapless XY phase ($\Delta < 1$) and the gapped antiferromagnetic Neel phase ($\Delta > 1$). The phase boundary is cleanly identified by the sharp cusp in the half-chain entanglement entropy at the isotropic point ($\Delta = 1.0$).
+By scanning the anisotropy parameter $\Delta$, the solver successfully captures the transition between the critical gapless XY phase ($\Delta < 1$) and the gapped antiferromagnetic Neel phase ($\Delta > 1$). The phase boundary is cleanly identified by the sharp cusp (would be, under the $N\to \infty$ limit. In this case, we can observe a smooth transition of $S_{vN}$ going to zero) in the half-chain entanglement entropy at the isotropic point ($\Delta = 1.0$).
 
 ![Phase Transition](phase_transition.png)
 
